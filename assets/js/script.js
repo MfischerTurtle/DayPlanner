@@ -33,7 +33,7 @@ for (var i = 9; i < 18; i++) {
 function setTime() {
     $('#currentDay').text(moment().format('dddd, MMMM Do,LTS'));
 }
-// saved text 
+// saved text button
 function performSave(event) {
     var targetTextArea = $(event.currentTarget).siblings("textarea");
     var noteToBeSaved = targetTextArea.val();
